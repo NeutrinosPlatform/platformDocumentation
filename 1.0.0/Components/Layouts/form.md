@@ -12,7 +12,7 @@ A form component can be used whenever there is a requirement for data-entry task
 Drag and drop a form component and set the style and class attribute. 
 
 ### Example
-**Display a login page**
+**Display a login page**  
 - Display a block as a login page .
 - Drag and drop a form component.
 - Drag and drop a paragraph component inside and set the text as Username.
