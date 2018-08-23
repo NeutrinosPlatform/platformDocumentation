@@ -1,14 +1,14 @@
 ## Overview
-It uses needles to show the information about the data values on a speedometer. Each section in the gauge needle is colored with different color and placed on a different axis. 
+It uses needles to show the information about the data values on a speedometer. Each section in the gauge needle is colored with a different color and placed on a different axis. 
 
 ## Usage
-A gauge chart is widely used in executive dashboard reports to show key business indicators. They are useful for comparing the small number of variables using multiple needles on speedometer space.
+A gauge chart is widely used in executive dashboard reports to show key business indicators. They are useful for comparing small number of variables using multiple needles within the speedometer space.
 
 ### How to use
 1. Open the newly created page.
-2. Drag and drop the gauge chart from Ngx Charts category.
-3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below: 
-    * Dataset which consists of all other parameters like labels, and legends. For example, 
+2. Drag and drop the gauge chart from the Ngx Charts category.
+3. Switch to the **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below: 
+    * Dataset which consists of all other parameters like labels and legends. For example, 
         ```ts
         ngxGaugeChartData = [
       {
@@ -37,14 +37,14 @@ A gauge chart is widely used in executive dashboard reports to show key business
       }
          ]
         ```
-4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
+4. Now switch back to the Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
 		[results] = ngxGaugeChartData
 		```
 5. Save the page and run the application.
 
 ### Example
-Consider an IT company wants a dashboard reports for the different branch to show key business performance indicators so that it can be compared easily with KPI (Key Performance Indicator). Here is an example,
+Consider an IT company wants a dashboard report to show key business performance indicators of its different branches, so that it can be compared easily with KPI (Key Performance Indicator). Here is an example,
 
 | Parameters | KPI |
 | :------: | :------: | 
@@ -71,13 +71,13 @@ ngxGaugeChartData = [
 ]
 ```
 #### Labels
-Here, the labels are automatically taken by from the dataset.
+Here, the labels are automatically taken from the dataset.
 ## Associated Attributes
 -   **angleSpan (Number):** It is the angle provided to the gauge spans. The unit is in degrees and the default value is 240 degree.
--   **startAngle (Number):** It is the angle that the chart is rotate by. It is measured in degree and the default value is -120 degree. Usually, negative half of the spanning angle (angleSpan) is taken to centralize the chart. 
--   **units (String):** It is text given to display under the value of the chart data values.
--   **bigSegments (Number):** It is a number of big segments given on the axis collected from the given data set. 
--   **smallSegments (number):** It is a number of small segments that appear in between every big segment. 
+-   **startAngle (Number):** It is the angle that the chart is rotated by. It is measured in degrees and the default value is -120 degree. Usually, negative half of the spanning angle (angleSpan) is taken to centralize the chart. 
+-   **units (String):** It is the text displayed under the value of the chart data.
+-   **bigSegments (Number):** It is the number of big segments given on the axis collected from the given data set. 
+-   **smallSegments (number):** It is the number of small segments that appear in between every big segment. 
 -   **min (number):** It is the starting point of the scale on the chart from where every data set point starts getting plotted. 
 -   **max (number):** It is the ending point of the scale in the gauge on which the data set values are plotted. 
 -   **Key:** Key is used to provide user custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
@@ -98,7 +98,7 @@ Here, the labels are automatically taken by from the dataset.
     }
     
     ```
--   **select (Events):** It takes a click event which is done on the segment of the chart. It displays some result on click or hover of the mouse. For example, displaying data point, the label on click of an individual segment.
+-   **select (Events):** It takes a click event which is performed on a segment of the chart. It displays some result on click or on hover of the mouse. For example, displaying data points or the label on click of an individual segment.
 -   **scheme:** It is a color scheme of the chart. For example,
     ```ts
     let colorSets = [
@@ -110,7 +110,7 @@ Here, the labels are automatically taken by from the dataset.
         ]
       } ];
     ```
--   **Results (object[]):** It provide a data to the chart which is plotted on a graph using a speedometer. For example,
+-   **Results (object[]):** It provides data to the chart which is plotted on a graph. For example,
     ```ts
     ngxGaugeChartData = [
       {
@@ -127,11 +127,11 @@ Here, the labels are automatically taken by from the dataset.
       }
     ]
     ```
--   **fxLayout:** It is a flex layout provided to the chart. It provides different orientation such as row orientation, column orientation to the chart. For example, 
+-   **fxLayout:** It is a flex layout provided to the chart. It provides different orientation such as row orientation and column orientation to the chart. For example, 
     ```ts
     fxLayout = 'row' OR fxLayout = 'column'
     ```
--   **fxFlex:** It is a directive for fxLayout which is used on it for resizing the elements within the flexbox container flow. It provide three options i.e fxFlex Grow, fxFlex shrink, and fxFlex basis. Here is a example of implementation of fxFlex.
+-   **fxFlex:** It is a directive for fxLayout which is used for resizing the elements within the flexbox container flow. It provides three options i.e fxFlex Grow, fxFlex shrink, and fxFlex basis. Here is a example of the implementation of fxFlex.
     ```html
     <div fxFlex="<grow> <shrink> <basis>"></div>
     ```
