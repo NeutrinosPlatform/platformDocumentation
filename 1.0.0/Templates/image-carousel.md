@@ -56,7 +56,8 @@ constructor(private  imgService:imageserviceService,private  cService:carouselse
 - In **HTML** file
 Drag and drop a custom html to call the child component
 ```html
-<bh-carousel [imageData]="imageData"[limitImage]="limit" *ngIf="imageData"></bh-carousel>```
+<bh-carousel [imageData]="imageData"[limitImage]="limit" *ngIf="imageData"></bh-carousel>
+```
 
 > **carousel**- Name of the child component.
 
