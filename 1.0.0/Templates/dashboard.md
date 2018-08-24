@@ -18,4 +18,3 @@ Dashboard is a reporting and monitoring tool used to visually depict the perform
 - **Dependencies version**  :
 	- Angular CLI version: 5.0.0 +  
 	- Cordova version: 7.1.0 +
-
