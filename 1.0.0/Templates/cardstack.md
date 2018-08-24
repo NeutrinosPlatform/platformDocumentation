@@ -4,9 +4,9 @@ This is a swipe-able cards interface which allows user to swipe a stack of cards
 It can be used in any application that provides a functionality on swipe of cards. It can also be seen in other applications. For example, a shopping cart, where swiping right on a product, adds it to the cart and swiping left, removes the item from the users suggestions list.
 
 ###  How to Use
- 1. Download the cardstack template from Neutrinos store.
- 2. Install the template in N-Studio.
- 3. When creating a new app select cardstack template from the **ENTER APP DETAILS** menu, and click on the create button.
+1. Download the cardstack template from Neutrinos store.
+2. Install the template in N-Studio.
+3. When creating a new app select cardstack template from the **ENTER APP DETAILS** menu, and click on the create button.
 4. Create a component where you would like to display the cards.
 For example :-  **cardstack component**
 5. Import angular2-swing into your component.
@@ -38,7 +38,7 @@ For example :-  **cardstack component**
 11. Import **stackservice** into your component.
     `import {stackserviceService}
     from../services/stackservice/stackservice.Service`
- 12. Inject the stackservice into the **constructor**.
+12. Inject the stackservice into the **constructor**.
 `constructor(public stackservice:stackserviceService)`
 13. When a card is swiped and popped a snackbar appears showing a message containing the direction in which the card was swiped. Depending on the direction in which the card was swiped, the user can perform functionality based on the user's requirement.
 14. When a card is popped out the number of cards remaining in the array is shown on the User Interface.
