@@ -16,47 +16,52 @@ Carousel is used to show images in a slideshow. This template is responsive so i
  3. When creating a new app, select the carousel template from the **ENTER APP DETAILS** menu and click on the create button.
  4. Create a component (Example:carousel) 
  5. In **TS** file 
- - Import services: one service based on user requirements (Example: imageservice) and another, carousel service, which contains **observable media**- used for tracking the responsiveness.
-```
- import{imageserviceService}from'../../services/imageservice/imageservice.service';
- ```
-```
-import { carouselserviceService } from  '../../services/carouselservice/carouselservice.service';
-```
-
-- Inject the two services in 'constructor'
-```
-constructor(private  imgService:imageserviceService,private  cService:carouselserviceService) {
-}
-```
-
-- Inside **class**, declare the variables used
-```
-    imagedata : String ;
-    limit : any ;
-```        
-- In **ngOnInit**
-
-  `this.imageData = this.imgService.getImages();`
-
-> **imagedata** - Variable used in imageservice.
-> **imgservice** - Keyword for the service.
- 
-- write a function
+	 - Import services: one service based on user requirements (Example: imageservice) and another, carousel service, which contains **observable media**- used for tracking the responsiveness.
+	```ts
+ import{imageserviceService} from '../../services/imageservice/imageservice.service';
+	 ```
+	```ts
+	import { carouselserviceService } from  '../../services/carouselservice/carouselservice.service';
 	```
-	ngDoCheck() { 
-	this.limit = this.cService.assignLimit(1, 2, 4); 
+
+	- Inject the two services in 'constructor'
+	```
+	constructor(private  imgService:imageserviceService,private  cService:carouselserviceService) {
 	}
 	```
-	
-> **limit** - Variable used in carouselservice.
-> **cservice** - Keyword for the service.
-> **ngDoCheck()** - Function used for tracking the responsiveness.
-                    
-- In **HTML** file
-Drag and drop a custom html to call the child component
-`<bh-carousel [imageData]="imageData"[limitImage]="limit" *ngIf="imageData"></bh-carousel>`
-> **carousel**- Name of the child component.
+
+	- Inside **class**, declare the variables used
+	```ts
+	    imagedata : String ;
+	    limit : any ;
+	```        
+	- In **ngOnInit**
+
+	 ```ts
+        this.imageData = this.imgService.getImages();
+        ```
+
+	> **imagedata** - Variable used in imageservice.
+	> **imgservice** - Keyword for the service.
+
+	- write a function
+		```ts
+		ngDoCheck() { 
+		this.limit = this.cService.assignLimit(1, 2, 4); 
+		}
+		```
+
+	> **limit** - Variable used in carouselservice.
+	> **cservice** - Keyword for the service.
+	> **ngDoCheck()** - Function used for tracking the responsiveness.
+
+	- In **HTML** file
+	Drag and drop a custom html to call the child component
+	```html
+<bh-carousel [imageData]="imageData"[limitImage]="limit" *ngIf="imageData"></bh-carousel>
+        ```
+
+    > **carousel**- Name of the child component.
 
 
 ## Support  
