@@ -1,19 +1,19 @@
 ## Overview
-It is a circular chart which is divided into different slice which represents the corresponding data values.
+It is a circular chart which is divided into different slices each of which represent the corresponding data values.
 
 ## Usage
 A pie chart is widely used in the business world, mass media, product analysis, survey and experimental analysis etc. 
-Consider a health center scenario where a particular hospital wants to plot a chart for the record of its patient admitted to different wards. The chart should indicate the overall hospital and divided into different section which represents the wards of the hospital. This can be achieved using a pie chart where a complete pie presents the hospital and divided slice of pie represent the wards of the hospital. 
+Consider a health center scenario where a particular hospital wants to plot a chart for the record of its patients admitted to different wards. The chart should indicate the overall hospital and be divided into different sections which represent the wards of the hospital. This can be achieved using a pie chart where a complete pie represents the hospital and divided slices of the pie represent the wards of the hospital. 
 Some of the other popular use cases of line chart are:
 -   Pharmaceutical Industries (indicating the different section of drugs)
--   Industries (for providing information on different product and services )
+-   Industries (for providing information on different products and services )
 -   Government offices (like revenue department)
--   Retails (for different types of product they provide)
+-   Retails (for different types of products they provide)
 
 ### How to use
 1. Open the newly created page.
-2. Drag and drop the pie chart from Ngx Charts category.
-3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below: 
+2. Drag and drop the pie chart from the Ngx Charts category.
+3. Switch to the **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below: 
     * Dataset which consists of all other parameters like labels, and legends. For example, 
         ```ts
         ngxpieChartData = [
@@ -43,11 +43,11 @@ Some of the other popular use cases of line chart are:
           }
         ]
         ```
-4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
+4. Now switch back to the Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
 		[results] = ngxpieChartData
 		```
-5. X-axis and Y-axis label can be shown or hidden by providing,
+5. X-axis and Y-axis labels can be shown or hidden by providing,
     ``` [labels] = true ```  OR ```[labels] = false ```.
 
 6. Legends can be shown or hidden by providing,
@@ -55,7 +55,7 @@ Some of the other popular use cases of line chart are:
 7. Save the page and run the application.
 
 ### Example
-Consider an IT industry which makes a survey on how many users use their product from the different part of the world. The sample data can be recorded as follows:
+Consider an IT industry which makes a survey on how many users use their products from different parts of the world. The sample data can be recorded as follows:
 
 | Country | Germany | USA | Spain | France | Nepal | India |
 | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -92,15 +92,15 @@ ngxpieChartData = [
 ]
 ```
 #### Labels:
-Here, the labels are automatically taken by from the dataset.
+Here, the labels are automatically taken from the dataset.
 #### Legend
-Here is a sample of legend that is declared and initialized in the component class of **Ts** file of the project.
+Here is a sample of the legend that is declared and initialized in the component class of **Ts** file of the project.
 ```typescript
  [legend] = true;
 ```
 This legend is taken from the dataset and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
 ## Associated Attributes
-- **Legends (Boolean):** It display category of data that is used in plotting the chart. If it is true, it shows the legends otherwise it does not show.
+- **Legends (Boolean):** It displays the categories of data that are used in plotting the chart. If it is true, it shows the legends otherwise it does not show.
     ```typescript
     [legend] = true;
     ```
@@ -112,7 +112,7 @@ This legend is taken from the dataset and displayed on the right side of the cha
 -   **explodeSlices (True/false):** It gives the radius to each slice. The radius of the slice will be proportional to its value. If it is true, it makes the radius proportional to its values and if it is false, normal slice division is made. 
 -   **Key:** Key is used to provide user custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
 -   **Doughnut (True / False):** This attribute provides a hollow space at the center of the pie chart. If it is true, the hollow space will be inserted into the chart otherwise not. 
--   **Value:** It is a value of the key that the user provided manually. For example,
+-   **Value:** It is a value of the key that the user provided manually.
 - **Style:** It accepts a string value and affects the different properties (height, width, color etc.) of the component based on the values provided (eg. background: orange; height:200px;).
 
 - **Class:** "Class" attribute is used to point to a class in a style sheet. A class contains one or more style statements. Classes are created inside the "Style" tab which is opened by selecting the "Style" side menu. The "Class" attribute accepts space separated class names (eg. class1 class2) which are defined in the "Style" tab as shown below.
@@ -129,7 +129,7 @@ This legend is taken from the dataset and displayed on the right side of the cha
     }
     
     ```
--   **select (Events):** It takes a click event which is done on the slice of the chart. It displays some result on click or hover of the mouse. For example, displaying data point, the label on click of individual slice.
+-   **select (Events):** It takes a click event which is done on the slice of the chart. It displays some result on click or on hover of the mouse. For example, displaying data point or the label on click of individual slice.
 -   **scheme:** It is a color scheme of the chart. For example,
     ```ts
     let colorSets = [
@@ -141,7 +141,7 @@ This legend is taken from the dataset and displayed on the right side of the cha
         ]
       } ];
     ```
--   **Results (object[]):** It provide a data to the chart which is plotted on a graph different pieces of slice. For example,
+-   **Results (object[]):** It provides data to the chart which is plotted on a graph. For example,
     ```ts
         ngxpieChartData = [
       {
@@ -174,7 +174,7 @@ This legend is taken from the dataset and displayed on the right side of the cha
     ```ts
     fxLayout = 'row' OR fxLayout = 'column'
     ```
--   **fxFlex:** It is a directive for fxLayout which is used on it for resizing the elements within the flexbox container flow. It provide three options i.e fxFlex Grow, fxFlex shrink, and fxFlex basis. Here is a example of implementation of fxFlex.
+-   **fxFlex:** It is a directive for fxLayout which is used on it for resizing the elements within the flexbox container flow. It provides three options i.e fxFlex Grow, fxFlex shrink, and fxFlex basis. Here is an example of the implementation of fxFlex.
     ```html
     <div fxFlex="<grow> <shrink> <basis>"></div>
     ```
