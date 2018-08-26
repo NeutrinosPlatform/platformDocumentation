@@ -1,9 +1,9 @@
 ## Overview
-A stacked horizontal bar chart is similar to the normal bar chart with a difference that in a stacked horizontal bar chart, the data values are plotted using a horizontal bar (row direction). It provides a good comparison of the data which is placed in the row direction. It is also known as a column chart."
+A stacked horizontal bar chart is similar to the normal bar chart with a difference that in a stacked horizontal bar chart, the data values are plotted using a horizontal bar (row direction). It provides a good comparison of the data which is placed in the row direction. It is also known as a column chart.
 
 ## Usage
 A stacked horizontal bar chart is widely used in industries, health centers, Data analysis, IT companies etc.
-The use case for stacked horizontal bar chart depends on the scope where it is being used. For example, the insurance companies use this chart to display the report of all the insured clients categorized under male or female in particular year or months, IT (Information Technology) companies use this chart for the analysis of the product and service used by their client. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of a stacked horizontal bar chart is for comparison of data categorized on different parameters. 
+The use case for stacked horizontal bar chart depends on the scope where it is being used. For example, the insurance companies use this chart to display the report of all the insured clients categorized under male or female in particular years or months, IT (Information Technology) companies use this chart for the analysis of the product and service used by their client. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of a stacked horizontal bar chart is for comparison of data categorized on different parameters. 
 There are some other popular use cases where stacked horizontal bar chart is used. Some of them are:
 -   Insurance companies
 -   Industries 
@@ -12,8 +12,8 @@ There are some other popular use cases where stacked horizontal bar chart is use
 
 ### How to use
 1. Open the newly created page.
-2. Drag and drop the stacked horizontal bar chart from Ngx Charts category.
-3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below:- 
+2. Drag and drop the stacked horizontal bar chart from the Ngx Charts category.
+3. Switch to the **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below:- 
     * Dataset which consists of all other parameters like labels, and legends. 
         ```ts
         dataSet = [
@@ -45,7 +45,7 @@ There are some other popular use cases where stacked horizontal bar chart is use
         }
         ];
         ```
-4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
+4. Now switch back to the Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
 		[results] = dataSet
 		```
@@ -60,7 +60,7 @@ There are some other popular use cases where stacked horizontal bar chart is use
 8. Save the page and run the application. 
   
 ### Example
-Consider an industry scenario which records the number of clients who use their products and services. The company plot the data on the stacked horizontal bar chart to get the better comparison in their performances. For example,
+Consider an industry scenario which records the number of clients who use their products and services. The company plots the data on the stacked horizontal bar chart to get a better comparison. For example,
 
 | Country | Products | Services |
 | :------: | :------: | :------: |
@@ -100,15 +100,15 @@ dataSet = [
 ];
 ```
 #### Labels
-Here, the labels are automatically taken by from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
+Here, the labels are automatically taken from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
 #### Legend
-Here is a sample of legend that is declared and initialized in the component class of **Ts** file of the project.
+Here is a sample of the legend that is declared and initialized in the component class of **Ts** file of the project.
 ```typescript
  [legend] = true;
 ```
 This legend is taken from the dataset and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
 ## Associated Attributes
-- **Legends (Boolean):** It display category of data that is used in plotting the stacked horizontal bar chart. If it is true, it shows the legends otherwise it does not show.
+- **Legends (Boolean):** It displays category of data that is used in plotting the stacked horizontal bar chart. If it is true, it shows the legends otherwise it does not show.
 - **[xAxisLabel] (String):** It gives the name to the x-axis.  For example,
     ```typescript
     [xAxisLabel] = "No of Clients"
@@ -144,7 +144,7 @@ This legend is taken from the dataset and displayed on the right side of the cha
     
     ```
 
--   **Results (object[]):** It provide a data to the chart which is plotted on a graph using horizontal bars. For example,
+-   **Results (object[]):** It provides data to the chart which is plotted on a graph using horizontal bars. For example,
     ```ts
     dataSet=[
      {
@@ -173,7 +173,7 @@ This legend is taken from the dataset and displayed on the right side of the cha
     ```ts
     fxLayout = 'row' OR fxLayout = 'column'
     ```
--   **fxFlex:** It is a directive for fxLayout which is used on it for resizing the elements within the flexbox container flow. It provide three options i.e fxFlex Grow, fxFlex shrink, and fxFlex basis. Here is a example of implementation of fxFlex.
+-   **fxFlex:** It is a directive for fxLayout which is used on it for resizing the elements within the flexbox container flow. It provides three options i.e fxFlex Grow, fxFlex shrink, and fxFlex basis. Here is an example of the implementation of fxFlex.
     ```html
     <div fxFlex="<grow> <shrink> <basis>"></div>
     ```
