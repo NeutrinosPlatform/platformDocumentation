@@ -142,7 +142,7 @@ This legend is taken from the dataset and displayed on the right side of the cha
       } ];
     ```
 -   **Results (object[]):** It provides data to the chart which is plotted on a graph. For example,
-    ```ts
+    ```typescript
         ngxpieChartData = [
       {
         "name": "Germany",
