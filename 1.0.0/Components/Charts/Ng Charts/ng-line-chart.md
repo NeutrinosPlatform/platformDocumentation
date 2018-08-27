@@ -37,13 +37,13 @@ Some of the other popular use cases of line chart are:
         };
         ```
 4. Now switch back to the Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
-        ```
-		[datasets] = lineChartData
-		```
+```ts
+	[datasets] = lineChartData
+```
 6. Provide the labels name in [labels] attribute. For example,
-        ```
-        [labels] = lineChartLabels
-        ```
+```ts
+	[labels] = lineChartLabels
+```
 7. Provide the options name in [options] attribute. For example, `[options] = lineChartOptions`
 	
 8. Provide the legend name in [legend] attribute. For example, `[legend] = legend`
