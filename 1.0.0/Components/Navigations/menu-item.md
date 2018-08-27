@@ -51,5 +51,5 @@ Menu items are what makes up a menu. Menu items are used to provide options with
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version:** 
-    - Angular CLI version: 5.0.0 + 
+    - Angular CLI version: 6.0.0 + 
     - Cordova version: 7.1.0 +

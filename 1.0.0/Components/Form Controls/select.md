@@ -10,8 +10,8 @@ Select component is used to select the list of options available within the sele
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field(s) with the attribute value(s):  
-    `placeholder = select`  
+1. Input the component field(s) with the attribute value(s):
+    `placeholder = select` 
     `class = select`
 2. Save it and run.
 3. When the page is loaded the value "placeholder = select" will display the value “Select” and "class = select" is the class name that can be used to point to a class in a style sheet.
@@ -44,6 +44,6 @@ Select component is used to select the list of options available within the sele
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version:** 
-    - Angular CLI version: 5.0.0 + 
+    - Angular CLI version: 6.0.0 + 
     - Cordova version: 7.1.0 +
 

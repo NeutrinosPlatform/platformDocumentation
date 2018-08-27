@@ -41,5 +41,5 @@ Text-area component specifies an input field where the user can enter data. Inpu
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version:** 
-    - Angular CLI version: 5.0.0 + 
+    - Angular CLI version: 6.0.0 + 
     - Cordova version: 7.1.0 +

@@ -10,9 +10,9 @@ Raised-button provides the user a simple way to trigger an event, like searching
 3. Fill the attributes which are needed and save the page.
 
 ### Example 
-1. Input the component field(s) with the attribute value(s):  
-    `buttonname = submit`  
-    `Click = clickEvent()`  
+1. Input the component field(s) with the attribute value(s):
+    `buttonname = submit`
+    `Click = clickEvent()` 
     In the "Ts" file write the following function:
     ```ts
     clickEvent() { 
@@ -45,5 +45,5 @@ Raised-button provides the user a simple way to trigger an event, like searching
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version:** 
-    - Angular CLI version: 5.0.0 + 
+    - Angular CLI version: 6.0.0 + 
     - Cordova version: 7.1.0 +

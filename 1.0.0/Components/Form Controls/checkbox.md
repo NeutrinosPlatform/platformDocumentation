@@ -48,5 +48,5 @@ Checkbox component allows the users to select any combination of options in a gr
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version:** 
-    - Angular CLI version: 5.0.0 + 
+    - Angular CLI version: 6.0.0 + 
     - Cordova version: 7.1.0 +

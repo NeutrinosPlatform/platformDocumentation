@@ -10,8 +10,8 @@ Slider component is used to select a range of values through mouse, touch or key
 3. Fill the attributes which are needed and save the page.
 
 ### Example
-1. Input the component field(s) with the attribute value(s):  
-    `invert = true`  
+1. Input the component field(s) with the attribute value(s): 
+    `invert = true` 
     `step = 50`
 2. Save it and run.
 3. When the page is loaded the value "invert = true" will display an inverted slider and "step=50" specifies the step increment value of the slider. In this example, the slider takes two clicks to move to the end of the slider. 
@@ -47,5 +47,5 @@ Slider component is used to select a range of values through mouse, touch or key
 - **Devices:** Android, iOS
 - **Browsers:**  Latest version of all modern browsers
 - **Dependencies version:** 
-    - Angular CLI version: 5.0.0 + 
+    - Angular CLI version: 6.0.0 + 
     - Cordova version: 7.1.0 +
