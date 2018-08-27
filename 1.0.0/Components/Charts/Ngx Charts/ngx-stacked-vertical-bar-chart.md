@@ -3,7 +3,7 @@ A stacked vertical bar chart is similar to the normal bar chart with a differenc
 
 ## Usage
 A stacked vertical bar chart is widely used in industries, health centers, Data analysis, IT companies etc.
-The use case for stacked vertical bar chart depends on the scope where it is being used. For example, the insurance companies use this chart to display the report of all the insured clients categorized under male or female in particular year or months, IT (Information Technology) companies use this chart for the analysis of the product and service used by their client. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of a stacked vertical bar chart is for comparison of data categorized on different parameters. 
+The use case for stacked vertical bar chart depends on the scope where it is being used. For example, the insurance companies use this chart to display the report of all the insured clients categorized under male or female in particular year or months, IT (Information Technology) companies use this chart for the analysis of the products and services used by their clients. Similarly, in the health domain, this chart is used for the treatment analysis and new drugs research data analysis. In all these scopes of the domain, the main use of a stacked vertical bar chart is for comparison of data categorized on different parameters. 
 There are some other popular use cases where stacked vertical bar chart is used. Some of them are:
 -   Insurance companies
 -   Industries 
@@ -12,8 +12,8 @@ There are some other popular use cases where stacked vertical bar chart is used.
 
 ### How to use
 1. Open the newly created page.
-2. Drag and drop the stacked vertical bar chart from Ngx Charts category.
-3. Switch to **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below: 
+2. Drag and drop the stacked vertical bar chart from the Ngx Charts category.
+3. Switch to the **Ts** file of the page and then declare the variable and provide values for the dataset. A sample is given below: 
     * Dataset which consists of all other parameters like labels, and legends. 
         ```javascript
         dataSet = [
@@ -45,7 +45,7 @@ There are some other popular use cases where stacked vertical bar chart is used.
         }
         ];
         ```
-4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
+4. Now switch back to the Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
 		[results] = dataSet
 		```
@@ -60,7 +60,7 @@ There are some other popular use cases where stacked vertical bar chart is used.
 8. Save the page and run the application.
 
 ### Example
-Consider an industry scenario which records the number of clients who use their products and services. The company plot the data on the stacked vertical bar chart to get the better comparison in their performances. For example,
+Consider an industry scenario which records the number of clients who use their products and services. The company plots the data on the stacked vertical bar chart to get a better comparison. For example,
 
 | Country | Products | Services |
 | :------: | :------: | :------: |
@@ -100,15 +100,15 @@ dataSet = [
 ];
 ```
 #### Labels
-Here, the labels are automatically taken by from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
+Here, the labels are automatically taken from the dataset. The label will be **'name'** for the y-axis and **'values'** for the x-axis
 #### Legend
-Here is a sample of legend that is declared and initialized in the component class of **Ts** file of the project.
+Here is a sample of the legend that is declared and initialized in the component class of **Ts** file of the project.
 ```javascript
  [legend] = true;
 ```
 This legend is taken from the dataset and displayed on the right side of the chart by default. Only the **name** parameter is taken into the legend section. 
 ## Associated Attributes
-- **Gradient (Color/color hexadecimal code):** Gradient is a combination of different colors pattern and style which is used to fill the vertical bars in the chart.  For example, 
+- **Gradient (Color/color hexadecimal code):** Gradient is a combination of different color patterns and styles which are used to fill the vertical bars in the chart.  For example, 
     ```css
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
     ```
@@ -121,7 +121,7 @@ This legend is taken from the dataset and displayed on the right side of the cha
     ```typescript
     [yAxis] = 'True' OR [yAxis] = 'False'
     ```
-- **Legends (Boolean):** It display category of data that is used in plotting the stacked vertical bar chart. If it is true, it shows the legends otherwise it does not show.
+- **Legends (Boolean):** It displays the category of data that is used in plotting the stacked vertical bar chart. If it is true, it shows the legends otherwise it does not show.
 - **[xAxisLabel] (String):** It gives the name to the x-axis.  For example,
     ```typescript
     [xAxisLabel] = "Types of services"
@@ -156,7 +156,7 @@ This legend is taken from the dataset and displayed on the right side of the cha
     }
     
     ```
--   **select (Events):** It takes a click event which is done on the bars of the chart. It displays some result on click or hover of the mouse. For example, displaying data point, the label on click of individual bars.
+-   **select (Events):** It takes a click event which is done on the bars of the chart. It displays some result on click or on hover of the mouse. For example, displaying data points and/or the labels on click of individual bars.
 -   **scheme:** It is a color scheme of the chart. For example,
     ```ts
     let colorSets = [
@@ -193,11 +193,11 @@ This legend is taken from the dataset and displayed on the right side of the cha
      }
     ]
     ```
--   **fxLayout:** It is a flex layout provided to the chart. It provides different orientation such as row orientation, column orientation to the chart. For example, 
+-   **fxLayout:** It is a flex layout provided to the chart. It provides different orientations such as row orientation, column orientation to the chart. For example, 
     ```ts
     fxLayout = 'row' OR fxLayout = 'column'
     ```
--   **fxFlex:** It is a directive for fxLayout which is used on it for resizing the elements within the flexbox container flow. It provide three options i.e fxFlex Grow, fxFlex shrink, and fxFlex basis. Here is a example of implementation of fxFlex.
+-   **fxFlex:** It is a directive for fxLayout which is used on it for resizing the elements within the flexbox container flow. It provides three options i.e fxFlex Grow, fxFlex shrink, and fxFlex basis. Here is an example of the implementation of fxFlex.
     ```html
     <div fxFlex="<grow> <shrink> <basis>"></div>
     ```
