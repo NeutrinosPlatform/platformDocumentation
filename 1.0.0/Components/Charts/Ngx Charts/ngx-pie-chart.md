@@ -171,7 +171,7 @@ This legend is taken from the dataset and displayed on the right side of the cha
     ]
     ```
 -   **fxLayout:** It is a flex layout provided to the chart. It provides different orientation such as row orientation, column orientation to the chart. For example, 
-    ```javascript
+    ```typescript
     fxLayout = 'row' OR fxLayout = 'column'
     ```
 -   **fxFlex:** It is a directive for fxLayout which is used on it for resizing the elements within the flexbox container flow. It provides three options i.e fxFlex Grow, fxFlex shrink, and fxFlex basis. Here is an example of the implementation of fxFlex.
