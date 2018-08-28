@@ -17,7 +17,7 @@ So in this case give colspan=1.
 Give rowspan=1. 
 **Label:** This attribute contains the data of the cell that will be stored inside the row.Which will be displayed as a list item.  
 ***ngFor:** This attribute is used to iterate through the list item which is stored in the grid-tile object. It will iterate through each item and display that data.
-```css
+```html
 Displaylist.html file
 <mat-grid-list cols="2" rowHeight="100px">
   <mat-grid-tile
@@ -26,7 +26,7 @@ Displaylist.html file
   </mat-grid-tile>
 </mat-grid-list>
 ```
-``` css
+``` typescript
 Displaylist.ts
        tiles: Tile[] = [
        {text: 'One'},
