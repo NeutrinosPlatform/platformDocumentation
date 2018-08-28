@@ -41,8 +41,8 @@ Some of the other popular use cases of bar charts are:
         ```
 4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
 
-        ```
-	[datasets] = barChartData
+      ```typescript
+      		[datasets] = barChartsData
 	```
 	
 6. Provide the labels name in [labels] attribute. For example,
