@@ -87,7 +87,7 @@ Here is a sample of the options that are declared and initialized in the compone
 ```
 ## Associated Attributes
 - **Label (String Array):** Labels are the identity of the data series in a chart. It appears in the legend and tooltips. For example, 
-    ```typescript
+    ```javascript
     ChartLabels:Array<any> = ['January', ‘February’, 'March', 'April', 'May', 'June', 'July'];
     ```
 
