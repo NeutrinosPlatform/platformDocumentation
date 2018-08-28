@@ -15,13 +15,12 @@ Some of the other popular use cases of bar charts are:
 2. Drag and drop the bar chart from Ng Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class :- 
     * A dataset array (contains y-axis values and labels of the legend). For example,
-        ```ts
+       ```ts
         public barChartData:Array<any> = [
         {data: [65, 59, 55, 81, 56, 55, 40], label: 'Series A'},
         {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'}
          ];
-	 ```
-        
+	```ts
     * A labels array (contains x-axis values). For example,
         ```typescript
         public barChartLabels:Array<any> = ['January', 'February', 'March','April', 'May', 'June', 'July'];
