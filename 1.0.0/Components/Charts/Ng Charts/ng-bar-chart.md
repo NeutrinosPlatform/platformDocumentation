@@ -43,11 +43,11 @@ Some of the other popular use cases of bar charts are:
 
         ```
 		[datasets] = barChartData
-		```
+	```
 6. Provide the labels name in [labels] attribute. For example,
 
         ```
-        [labels] = barChartLabels
+        	[labels] = barChartLabels
         ```
 7. Provide the options name in [options] attribute. For example, `[options] = barChartOptions`
         
