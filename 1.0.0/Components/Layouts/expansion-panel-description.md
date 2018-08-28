@@ -10,7 +10,7 @@ Expansion-description is used to write description for the expansion panel conte
 
 ### Example
 1. Input the component field with the attribute value:
-```css 
+```html
 description = This is a description panel
 ```
 2. Save it and run.
