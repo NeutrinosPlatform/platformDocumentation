@@ -27,7 +27,7 @@ Some of the other popular use cases of bar charts are:
         ```
     * Legend value (either true or false). For example, 
         ```typescript
-        public legend=false;
+        public legend = false;
         ```
     * Options value. For example,
         ```typescript
@@ -87,7 +87,7 @@ Here is a sample of the options that are declared and initialized in the compone
 ```
 ## Associated Attributes
 - **Label (String Array):** Labels are the identity of the data series in a chart. It appears in the legend and tooltips. For example, 
-    ```javascript
+    ```typescript
     ChartLabels:Array<any> = ['January', ‘February’, 'March', 'April', 'May', 'June', 'July'];
     ```
 
