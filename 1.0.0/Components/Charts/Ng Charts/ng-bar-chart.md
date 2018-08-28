@@ -15,25 +15,34 @@ Some of the other popular use cases of bar charts are:
 2. Drag and drop the bar chart from Ng Charts category.
 3. Switch to **Ts** file of the page and then declare the variable and provide values for the following in the component class :- 
     * A dataset array (contains y-axis values and labels of the legend). For example,
-        ```typescript
+        ```ts
+	
         public barChartData:Array<any> = [
         {data: [65, 59, 55, 81, 56, 55, 40], label: 'Series A'},
         {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'}
          ];
-	 ```
+	 
+         ```
+        
     * A labels array (contains x-axis values). For example,
-        ```ts
+        ```typescript
+	
         public barChartLabels:Array<any> = ['January', 'February', 'March','April', 'May', 'June', 'July'];
+	
         ```
     * Legend value (either true or false). For example, 
-        ```ts
+        ```typescript
+	
         public legend = false;
+	
         ```
     * Options value. For example,
-        ```ts
+        ```typescript
+	
         public barChartOptions:any = {
         responsive: true
         };
+	
         ```
 4. Now switch back to Html file of the page and provide the dataset array name in the [datasets] attribute. For example,
         ```
@@ -62,44 +71,58 @@ Let's take an example of a bank generating a report on different years which inc
 
 #### Datasets
 Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
-```ts
+```typescript
+
 public barChartData:Array<any> = [
    {data: [69, 72, 82, 79, 92], label: 'Net Profit Margin (%)'},
    {data: [60, 64, 69, 79, 60], label: 'Assets (%)'},
    {data: [47, 59, 65, 69, 80], label: 'Investors (%)'},
    {data: [23, 47, 50, 55, 65], label: 'Net Bank Credit to Government(%)'} ];
+   
 ```
 #### Labels
 Here is a sample of the labels that are declared and initialized in the component class of **Ts** file of the project.
-```ts
+```typescript
+
 public barChartLabels:Array<any> = ['2013', '2014', '2015','2016','2017'];
+
 ```
 #### Legend
 Here is a sample of the legend that is declared and initialized in the component class of **Ts** file of the project.
-```ts
+```typescript
+
   public legend=true;
+  
 ```
 #### Options
 Here is a sample of the options that are declared and initialized in the component class of **Ts** file of the project.
-```ts
+```typescript
+
  public barChartOptions:any = {
    responsive: true };
+   
 ```
 ## Associated Attributes
 - **Label (String Array):** Labels are the identity of the data series in a chart. It appears in the legend and tooltips. For example, 
-    ```ts
+    ```javascript
+    
     ChartLabels:Array<any> = ['January', ‘February’, 'March', 'April', 'May', 'June', 'July'];
+    
     ```
 
 -   **Datasets (JSON Objects Array):** It is a data of the chart which is framed on vertical or horizontal bars. For example,
-    ```ts
+    ```typescript
+    
     {data: [69, 72, 82, 79, 92], label: 'Net Profit Margin (%)'} ];
+    
     ```
 - **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is clicked or placed over the bar chart. For example, displaying label and point value when the mouse is clicked on the chart or mouse is moved over the chart. 
 - **Legends (Boolean):** It is a name given to the same category of data that is used in plotting the bar chart. If it is true, it shows the legends otherwise it does not show.
 - **Color (Color/color hexadecimal code):** This property allows user to provide the desired color to the bar chart. For example, 
     ```css
+    
     background-color: #92a8d1;
+    
     ```
 
 -   **Key:** Key is used to provide user with a custom key point into the chart. It is like a user’s custom parameter provided to the chart section.
@@ -119,7 +142,6 @@ Here is a sample of the options that are declared and initialized in the compone
         flex-basis:10%;
         height:100px;
     }
-    
     ```
 
 ## Support
