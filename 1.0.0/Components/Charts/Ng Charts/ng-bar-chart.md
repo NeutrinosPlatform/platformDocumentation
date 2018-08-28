@@ -21,8 +21,6 @@ Some of the other popular use cases of bar charts are:
         {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'}
         ];
         ```
-
-        
     * A labels array (contains x-axis values). For example,
         ```typescript
         public barChartLabels:Array<any> = ['January', 'February', 'March','April', 'May', 'June', 'July'];
