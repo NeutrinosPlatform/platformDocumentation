@@ -22,15 +22,15 @@ Some of the other popular use cases of bar charts are:
          ];
 	 ```
     * A labels array (contains x-axis values). For example,
-        ```typescript
+        ```ts
         public barChartLabels:Array<any> = ['January', 'February', 'March','April', 'May', 'June', 'July'];
         ```
     * Legend value (either true or false). For example, 
-        ```typescript
+        ```ts
         public legend = false;
         ```
     * Options value. For example,
-        ```typescript
+        ```ts
         public barChartOptions:any = {
         responsive: true
         };
@@ -62,7 +62,7 @@ Let's take an example of a bank generating a report on different years which inc
 
 #### Datasets
 Here is a sample of a dataset that is declared and initialized in the component class **Ts** file of the project. 
-```typescript
+```ts
 public barChartData:Array<any> = [
    {data: [69, 72, 82, 79, 92], label: 'Net Profit Margin (%)'},
    {data: [60, 64, 69, 79, 60], label: 'Assets (%)'},
@@ -71,28 +71,28 @@ public barChartData:Array<any> = [
 ```
 #### Labels
 Here is a sample of the labels that are declared and initialized in the component class of **Ts** file of the project.
-```typescript
+```ts
 public barChartLabels:Array<any> = ['2013', '2014', '2015','2016','2017'];
 ```
 #### Legend
 Here is a sample of the legend that is declared and initialized in the component class of **Ts** file of the project.
-```typescript
+```ts
   public legend=true;
 ```
 #### Options
 Here is a sample of the options that are declared and initialized in the component class of **Ts** file of the project.
-```typescript
+```ts
  public barChartOptions:any = {
    responsive: true };
 ```
 ## Associated Attributes
 - **Label (String Array):** Labels are the identity of the data series in a chart. It appears in the legend and tooltips. For example, 
-    ```typescript
+    ```ts
     ChartLabels:Array<any> = ['January', ‘February’, 'March', 'April', 'May', 'June', 'July'];
     ```
 
 -   **Datasets (JSON Objects Array):** It is a data of the chart which is framed on vertical or horizontal bars. For example,
-    ```typescript
+    ```ts
     {data: [69, 72, 82, 79, 92], label: 'Net Profit Margin (%)'} ];
     ```
 - **chartHover/chartClick (mouse Events):** It is an event which appears when the mouse is clicked or placed over the bar chart. For example, displaying label and point value when the mouse is clicked on the chart or mouse is moved over the chart. 
