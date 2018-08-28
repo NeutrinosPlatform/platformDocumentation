@@ -23,14 +23,17 @@ Some of the other popular use cases of bar charts are:
         ];
         ```
     * A labels array (contains x-axis values). For example,
+	
         ```typescript
         public barChartLabels:Array<any> = ['January', 'February', 'March','April', 'May', 'June', 'July'];
         ```
     * Legend value (either true or false). For example, 
+    
         ```typescript
         public legend = false;
         ```
     * Options value. For example,
+    
         ```typescript
         public barChartOptions:any = {
         responsive: true
