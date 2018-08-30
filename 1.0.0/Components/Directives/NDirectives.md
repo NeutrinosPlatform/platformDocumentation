@@ -1,5 +1,5 @@
 ### Camera
-* Description
+* Description :
     Custom directive for upload file from mobile only based on cordova. 
     If you want to use this add **bh-camera** custom directive any component.
 * Input
@@ -19,7 +19,7 @@
             (onerror) = error($event)
 
 ### File Download
-* Description
+* Description :
     Custom directive for download file. 
     If you want to use this add **bh-download** custom directive any component.
 * Input
@@ -43,7 +43,7 @@
             (onerror) = error($event)
 
 ### File Upload
-* Description
+* Description :
     Custom component for upload file from browser. 
     If you want to use this add **File Upload** component.
 * Input
@@ -63,7 +63,7 @@
             (onerror) = error($event)
 
 ### Cam Scanner
-* Description
+* Description :
     Custom directive for document scanner from cordova devices.
     If you want to use this add **bh-scan** custom directive any component.
 * Input
@@ -86,7 +86,7 @@
             (onerror) = error($event)
 
 ### Barcode Reader
-* Description
+* Description :
     Custom directive for barcode / QR code scanning from cordova devices.
     If you want to use this add **n-barcode** custom directive to any component.
 * Input (Optional will take defaults if input isn't provided)
@@ -121,7 +121,7 @@
             (onerror) = error($event)
 
 ### Video
-* Description
+* Description :
     Custom directive for for capturing video from cordova devices.
     If you want to use this add **n-video** custom directive to any component.
 
@@ -137,7 +137,7 @@
             (onerror) = error($event)
 
 ### Text to Speech
-* Description
+* Description :
     Custom directive for converting text to speech in cordova devices.
     If you want to use this add **n-tts** custom directive to any component.
     
@@ -162,7 +162,7 @@
             (onerror) = error($event)
 
 ### Shake
-* Description
+* Description :
     Custom directive for detecting shakes in cordova devices.
     If you want to use this add **n-shake** custom directive to any component.
     
@@ -184,7 +184,7 @@
             (onerror) = error($event)
 
 ### Optical Character Recognition
-* Description
+* Description :
     Custom directive for Optical Character Recognition in cordova devices.
     If you want to use this add **n-ocr** custom directive to any component.
     
@@ -212,7 +212,7 @@
             (onerror) = error($event)
 
 ### Fingerprint
-* Description
+* Description :
     Custom directive for fingerprint Recognition of saved fingerprints in cordova devices.
     If you want to use this add **n-fingerprint** custom directive to any component.
     
