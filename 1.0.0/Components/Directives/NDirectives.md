@@ -68,7 +68,7 @@
     Custom directive for document scanner from cordova devices.
     If you want to use this add **bh-scan** custom directive any component.
 * Input
-    * [scanOptions] = "{entityName: 'profile', metadata: {key: 'example@neutrinos.co'}, sourceType: 0}"
+    * [scanOptions] = "{entityName: 'profile', metadata: {key: 'example@neutrinos.co'}, sourceType: 0, doUpload : true}"
     *  entityName - collection Name - string
         * example
             entityName = 'profile'
@@ -78,6 +78,9 @@
     *  sourceType - whether camera or gallery - number
         * example
             sourceType = 0
+    *  doUpload - whether to upload directly or return imageUri instead - boolean
+        * example
+            doUpload = true
 * Output
     * (onsuccess) - success method
         * example
