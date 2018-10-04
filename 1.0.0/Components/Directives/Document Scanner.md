@@ -16,7 +16,7 @@ This directive is intended to be added to any component. Once added any click ev
         - Click the ADD button
     2. Provide the options that the directive will use.
         - key : [scanOptions] 
-        - value : `{entityName: 'profile', metadata: {key: 'example@neutrinos.co'}, sourceType: 1}`
+        - value : `{entityName: 'profile', metadata: {key.mple@neutrinos.co'}, sourceType: 1, doUpload : true}`
         - Click the ADD button
     3. Input the action that occurs if the directive successfully completed its functionality.
         - key : (onsuccess)  
