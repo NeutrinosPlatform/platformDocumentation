@@ -23,9 +23,9 @@ This directive is intended to be added to any component. Once added any click ev
                         showTorchButton: boolean,
                         torchOn: boolean,
                         saveHistory: boolean,
-                        prompt: "Place a barcode inside the scan area",
+                        prompt: 'Place a barcode inside the scan area',
                         resultDisplayDuration: 1500,
-                        formats: "DATA_MATRIX,UPC_A,UPC_E,EAN_8,EAN_13,CODE_39,CODE_93,CODE_128,CODABAR,ITF,RSS14,MSI,AZTEC",
+                        formats: 'DATA_MATRIX,UPC_A,UPC_E,EAN_8,EAN_13,CODE_39,CODE_93,CODE_128,CODABAR,ITF,RSS14,MSI,AZTEC',
                         orientation: string,
                         disableAnimations: boolean,
                         disableSuccessBeep: boolean
