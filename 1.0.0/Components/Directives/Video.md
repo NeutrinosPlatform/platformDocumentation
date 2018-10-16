@@ -14,7 +14,7 @@ This directive is intended to be added to any component. Once added any click ev
         - Leave the value field empty
         - Click the ADD button
     2. Provide the options that the directive will use.
-        - key : [videOptions] 
+        - key : [videoOptions] 
         - value : `{entityName: 'profile', metadata: {key: 'example@neutrinos.co'}}`
         - Click the ADD button
     3. Input the action that occurs if the directive successfully completed its functionality.
