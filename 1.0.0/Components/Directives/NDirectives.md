@@ -2,7 +2,7 @@
 ### Camera
 * Description :
     Custom directive for upload file from mobile only based on cordova. 
-    If you want to use this add **bh-camera** custom directive any component.
+    If you want to use this add **n-camera** custom directive any component.
 * Input
     * [cameraOptions] = "{entityName: 'profile', metadata: {key: 'example@neutrinos.co'}}"
     *  entityName - collection Name - string
@@ -22,7 +22,7 @@
 ### File Download
 * Description :
     Custom directive for download file. 
-    If you want to use this add **bh-download** custom directive any component.
+    If you want to use this add **n-download** custom directive any component.
 * Input
     * [downloadOptions] = "{entityName: 'profile', metadata?: {key: 'example@neutrinos.co'}, fileId?: '5a659b8d8fa0d80af3551f70'}"
     * In [downloadOptions] either fileId nor metadata is required. If both exist it will take only metadata.
@@ -66,7 +66,7 @@
 ### Cam Scanner
 * Description :
     Custom directive for document scanner from cordova devices.
-    If you want to use this add **bh-scan** custom directive any component.
+    If you want to use this add **n-scan** custom directive any component.
 * Input
     * [scanOptions] = "{entityName: 'profile', metadata: {key: 'example@neutrinos.co'}, sourceType: 0, doUpload : true}"
     *  entityName - collection Name - string
