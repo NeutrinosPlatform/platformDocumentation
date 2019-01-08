@@ -26,7 +26,7 @@ This directive is intended to be added to any component. Once added any click ev
                         prompt: 'Place a barcode inside the scan area',
                         resultDisplayDuration: 1500,
                         formats: 'QR_CODE,DATA_MATRIX,UPC_A,UPC_E,EAN_8,EAN_13,CODE_39,CODE_93,CODE_128,CODABAR,ITF,RSS14,MSI',
-                        orientation: string, //'portait' or 'landscape'
+                        orientation: string, //'portrait' or 'landscape'
                         disableAnimations: boolean,
                         disableSuccessBeep: boolean
                     }
