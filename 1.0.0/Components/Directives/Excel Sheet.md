@@ -39,7 +39,7 @@ This directive is intended to be added to any component. Once added, on load of 
         - Then is TS file add the following function `success($event){console.log($event)}`
         - The object returned on success contains the following values :-
             - In case of an exception a HTTP error object will be received.
-            - In case of a success the array with the excel rendered as HTML at index 0 will be returned. An array containing all the       sheetnames (and one with specified sheetnames if sheetIndices input was specified) may also be returned if correct            sheetOptions input was provided to the directive.
+            - In case of a success the array with the excel rendered as HTML at index 0 will be returned. An array containing all the sheetnames (and one with specified sheetnames if sheetIndices input was specified) may also be returned if correct sheetOptions input was provided to the directive.
     4. Input the action that occurs if the directive failed to complete its functionality.
         - key : (onerror)  
         - value : `error($event)`
