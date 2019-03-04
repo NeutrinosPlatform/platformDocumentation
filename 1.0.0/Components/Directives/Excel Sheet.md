@@ -10,7 +10,7 @@ This directive is intended to be added to any component. Once added, on load of 
 ### How to use   
 1. Drag and drop any component and then add the following key-value pairs using the "New property : Attribute" section of the HTML page. Note :- If the value field is missing then leave it empty. If an input needs to be added to the value field, click the slide-toggle button; this makes the value field editable.
     1. Add the directive as an attribute.
-        - key : n-barcode
+        - key : n-sheet
         - No value field
         - Click the ADD button
     2. Provide the inputs that the directive will use.
@@ -50,7 +50,7 @@ This directive is intended to be added to any component. Once added, on load of 
 
 ## Support
 - **Devices:** Android, iOS
-- **Browsers:**  None
+- **Browsers:**  Chrome, Firefox, Safari
 - **Dependencies version:** 
     - Angular CLI version: 6.0.0 + 
     - Cordova version: 7.1.0 +
