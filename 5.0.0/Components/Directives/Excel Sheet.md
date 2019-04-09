@@ -7,14 +7,14 @@ This directive is intended to be added to any component. Once added, on load of 
 * Using the inputs (explained below) provide a http URL which is called where the Excel to HTML parser node resides within the B-Modelr.
 * The inputs from the directive if valid will be used to convert the excel data which could either be an absolute file path or a file buffer into HTML ready to be inserted directly into any component on any page.
 
-### How to use   
-1. Drag and drop any component and then add the following key-value pairs using the "New property : Attribute" section of the HTML page. Note :- If the value field is missing then leave it empty. If an input needs to be added to the value field, click the slide-toggle button; this makes the value field editable.
-    1. For the directive to work you must first have your Excel Viewer Bmodeler Node setup. In your app folder find \flows\user-data\package.json and add the following dependecy `"node-red-exceltohtml" : "2.0.4"` then npm install within this folder and you are good to go.
-    2. Next add the directive as an attribute.
+### How to use
+1. For the directive to work you must first have your Excel Viewer Bmodeler Node setup. In your app folder find \flows\user-data\package.json and add the following dependecy `"node-red-exceltohtml" : "2.0.4"` then npm install within this folder and you are good to go.
+2. Drag and drop any component and then add the following key-value pairs using the "New property : Attribute" section of the HTML page. Note :- If the value field is missing then leave it empty. If an input needs to be added to the value field, click the slide-toggle button; this makes the value field editable.
+    1. Next add the directive as an attribute.
         - key : n-sheet
         - No value field
         - Click the ADD button
-    3. Provide the inputs that the directive will use.
+    2. Provide the inputs that the directive will use.
         - key : [htmlContent] 
         - value : (Optional, used if sheetOptions not specified) any html that will be directly populated to the component
         - key : [sheetOptions] 
@@ -33,7 +33,7 @@ This directive is intended to be added to any component. Once added, on load of 
             }
          ```
         - Click the ADD button
-    4. Input the action that occurs if the directive successfully completed its functionality.
+    3. Input the action that occurs if the directive successfully completed its functionality.
         - key : (onsuccess)  
         - value : `success($event)`
         - Click the ADD button
@@ -41,12 +41,12 @@ This directive is intended to be added to any component. Once added, on load of 
         - The object returned on success contains the following values :-
             - In case of an exception a HTTP error object will be received.
             - In case of a success the excel rendered as HTML will be returned as a string. An array containing all the sheetnames and one with specified sheetnames (if sheetIndices input was specified) may also be returned if correct sheetOptions input was provided to the directive.
-    5. Input the action that occurs if the directive failed to complete its functionality.
+    4. Input the action that occurs if the directive failed to complete its functionality.
         - key : (onerror)  
         - value : `error($event)`
         - Click the ADD button
         - Then is TS file add the following function `error($event){console.log($event)}`
-2. The `console.log($event)` line inside the values of the (onsuccess) and (onerror) keys can be changed as per the developers requirement. 
+3. The `console.log($event)` line inside the values of the (onsuccess) and (onerror) keys can be changed as per the developers requirement. 
 >Note :- `console.log($event)` displays the output (which is $event) of the directive for both success and error on a console which can be accessed by google chrome or safari.
 
 ## Support
