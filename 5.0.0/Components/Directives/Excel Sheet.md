@@ -8,7 +8,7 @@ This directive is intended to be added to any component. Once added, on load of 
 * The inputs from the directive if valid will be used to convert the excel data which could either be an absolute file path or a file buffer into HTML ready to be inserted directly into any component on any page.
 
 ### How to use
-1. For the directive to work you must first have your Excel Viewer Bmodeler Node setup. In your app folder find \flows\user-data\package.json and add the following dependecy `"node-red-exceltohtml" : "2.0.4"` then npm install within this folder and you are good to go. You might also have to setup your npm registry appropriately, plesae contact support to get help with this. 
+1. For the directive to work you must first have your Excel Viewer Bmodeler Node setup. In your app folder find \flows\user-data\package.json and add the following dependecy `"node-red-exceltohtml" : "2.0.4"` then npm install within this folder and you are good to go. You might also have to setup your npm registry appropriately, please contact support to get help with this. 
 2. Drag and drop any component and then add the following key-value pairs using the "New property : Attribute" section of the HTML page. Note :- If the value field is missing then leave it empty. If an input needs to be added to the value field, click the slide-toggle button; this makes the value field editable.
     1. Next add the directive as an attribute.
         - key : n-sheet
