@@ -1,2 +1,0 @@
-# Ngx Charts
-
