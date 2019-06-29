@@ -15,7 +15,7 @@ It can be used in any application that provides a functionality on swipe of card
 3. When creating a new app select cardstack template from the **ENTER APP DETAILS** menu, and click on the create button.
 4. Create a component where you would like to display the cards.
 
-   For example :-  **cardstack component**
+   For example :- **cardstack component**
 
 5. Import angular2-swing into your component.
 

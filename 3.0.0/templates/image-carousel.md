@@ -29,23 +29,23 @@ Carousels are often used to display a series of looping images. There are some o
    import { carouselserviceService } from  '../../services/carouselservice/carouselservice.service';
    ```
 
-* Inject the two services in 'constructor'
+7. Inject the two services in 'constructor'
 
-  ```typescript
-  constructor(private  imgService:imageserviceService,private  cService:carouselserviceService) {
-  }
-  ```
+   ```typescript
+   constructor(private  imgService:imageserviceService,private  cService:carouselserviceService) {
+   }
+   ```
 
-* Inside **class**, declare the variables used
+8. Inside **class**, declare the variables used
 
-  ```typescript
-    imagedata : String ;
-    limit : any ;
-  ```
+   ```typescript
+     imagedata : String ;
+     limit : any ;
+   ```
 
-* In **ngOnInit**
+9. In **ngOnInit**
 
-  `this.imageData = this.imgService.getImages();`
+   `this.imageData = this.imgService.getImages();`
 
 > **imagedata** - Variable used in imageservice. **imgservice** - Keyword for the service.
 
