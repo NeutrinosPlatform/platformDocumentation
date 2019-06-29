@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [6.0.0](https://app.gitbook.com/@neutrinos-docs/s/components-6-0-0/)
+* [6.0.0](https://docs.neutrinos.co/components-6-0-0/)
 * [5.0.4](5.0.4/README.md)
   * [Templates](5.0.4/templates/README.md)
     * [image-carousel](5.0.4/templates/image-carousel.md)
