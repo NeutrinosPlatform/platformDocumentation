@@ -17,7 +17,7 @@ Neutrinos Login Template can be used to create a login form for the apps that re
 5. Click on the newly created app.
 6. Open the "Settings" editor from the sidemenu
 7. In the "IDS" section, fill in the mandatory fields
-8. Save the settings, which will genrate flows and services in the "Server Services"
+8. Save the settings, which will genrate flows and services in the "Server Services" (click [here](http://docs1.neutrinos.co/articles/#!server-side-service-designer-publication/ids-services) to learn about IDS flows]
 6. Run the "Initialize" task.
 7. Run the "Live view" task.
 8. Now, the login form can be seen at [http://localhost:4200](http://localhost:4200) in the browser.
